@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="../JS/tag.js"></script>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="grid-header">
+            <input type="checkbox" id="hamburger-input" class="burger-shower" />
+            <label id="hamburger-menu" for="hamburger-input">
+                <nav id="sidebar-menu">
+                    <ul>
+                        <li> <a href="../index.html" class="grid-item barba-link">
+                                <div><i class="fas fa-home"></i> Start</div>
+                            </a></li>
+                        <li><a href="../html/projekt.html" class="grid-item barba-link">
+                                <div><i class="fas fa-cogs"></i> Projekte</div>
+                            </a></li>
+                        <li><a href="../html/kontakt.html" class="grid-item barba-link">
+                                <div><i class="fas fa-envelope"></i> Kontakt</div>
+                            </a></li>
+                        <div style="display: flex; justify-content: center; margin-top: 100px;">- Schließen -</div>
+                    </ul>
+                </nav>
+            </label>
+
+
+
+            <nav id="l-nav">
+                <a href="../index.html" class="grid-item barba-link">
+                    <div><i class="fas fa-home"></i> Start</div>
+                </a>
+                <a href="../html/projekt.html" class="grid-item barba-link">
+                    <div><i class="fas fa-cogs"></i> Projekte</div>
+                </a>
+                <a href="../html/kontakt.html" class="grid-item barba-link">
+                    <div><i class="fas fa-envelope"></i> Kontakt</div>
+                </a>
+            </nav>
+            <nav id="r-nav">
+                <a href="#" class="grid-item barba-link">
+                    <div class="text-r"><i class="fab fa-instagram"></i> Instagram</div>
+                </a>
+                <a href="#" class="grid-item barba-link">
+                    <div class="text-r"><i class="fab fa-youtube"></i> YouTube</div>
+                </a>
+                <a href="#" class="grid-item barba-link">
+                    <div class="text-r"><i class="fas fa-ellipsis-h"></i> Weiteres</div>
+                </a>
+            </nav>
+        </header>
+        <div class="filter">
+            <div>Filter:</div>
+            <div class="tags">
+                <label><input type="checkbox" name="tag" value="Create Thumbnails">Create Thumbnails</label>
+                <label><input type="checkbox" name="tag" value="Video Editing">Video Editing</label>
+                <label><input type="checkbox" name="tag" value="Video analytics">Video analytics</label>
+                <label><input type="checkbox" name="tag" value="Hochschul Project">Hochschul Project</label>
+                <label><input type="checkbox" name="tag" value="Admin/Moderation">Admin/Moderation</label>
+                <button id="resetButton">Reset</button>
+            </div>
+
+        </div>
+
+
+        <div id="projekt-grid" class="projekt-grid">
+            <div class="projekt-tiles">
+                <img src="../img/lpwg.png" alt="LPWGLogo">
+                <p>LPWG</p>
+                <div class="tags">
+                    <a class="tag">Admin/Moderation</a>
+                    <a class="tag">Create Thumbnails</a>
+                    <a class="tag">Video analytics</a>
+                    <a class="tag">Video Editing</a>
+                </div>
+                <a href="https://www.youtube.com/@LpWG" style="color:rgba(245, 245, 220, 0.667)">Zum Kanal</a>
+            </div>
+            <div class="projekt-tiles">
+                <img src="../img/87-roman-no-iulius_nur_mit_Gaius.png" alt="GaiusLogo">
+                <p>GaiusJuliusCaesar</p>
+                <div class="tags">
+                    <a class="tag">Create Thumbnails</a>
+                    <a class="tag">Video analytics</a>
+
+                </div>
+                <a href="https://www.youtube.com/@GaiusJuliusCaesarYT" style="color:rgba(245, 245, 220, 0.667)">1.
+                    Hauptkanal</a>
+                <a href="https://www.youtube.com/@gaiusuncut7691" style="color:rgba(245, 245, 220, 0.667)">2. Uncut
+                    Kanal</a>
+                <a href="https://www.youtube.com/@gaiusserientalk8213" style="color:rgba(245, 245, 220, 0.667)">3.
+                    Serientalk</a>
+            </div>
+            <div class="projekt-tiles">
+                <img src="../img/kavalierpirat-logo-schlicht.png" alt="Kavalierpirat">
+                <p>Kavalierpirat</p>
+                <div class="tags">
+                    <a class="tag">Create Thumbnails</a>
+                    <a class="tag">Video analytics</a>
+                    <a class="tag">Video Editing</a>
+                </div>
+                <a href="https://www.youtube.com/@KavalierPirat" style="color:rgba(245, 245, 220, 0.667)">Zum Kanal</a>
+            </div>
+            <div class="projekt-tiles">
+                <img src="../img/Github.png" alt="Github_Logo">
+                <p>Mein eigenes Github Profiel</p>
+                <div class="tags">
+
+                </div>
+                <a href="https://github.com/Mairik4090" style="color:rgba(245, 245, 220, 0.667)">Zum Account</a>
+            </div>
+            <div class="projekt-tiles">
+                <img src="../img/Knives_Out_Logo.png" alt="Knives_Out_Logo">
+                <p>Projektwoche</p>
+                <div class=" tags">
+                    <a class="tag">Hochschul Project</a> <a class="tag">Video Editing</a>
+                </div>
+                <a href="../html/video.html" style="color:rgba(245, 245, 220, 0.667)">Video Anschauen</a>
+            </div>
+            <div class="projekt-tiles">
+                <img src="../img/cam.png" alt="Camera">
+                <p>Eigener Kurzfilm</p>
+                <div class="tags">
+                    <a class="tag">Hochschul Project</a> <a class="tag">Video Editing</a>
+                </div>
+                <a href="../html/film.html" style="color:rgba(245, 245, 220, 0.667)">Zum Projekt</a>
+            </div>
+            <!-- Weitere Projekt-Elemente hier einfügen -->
+        </div>
+    </div>
+    <div>
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+            <a href="../index.html" class="grid-item">
+                <div><i class="fas fa-arrow-left"></i> Vorherige Seite</div>
+            </a>
+            <a href="../html/kontakt.html" class=" grid-item">
+                <div> Nächste Seite <i class="fas fa-arrow-right"></i></div>
+            </a>
+        </div>
+    </div>
+    <a href="./impressum.html" class="grid-item">
+        <div style="color: rgba(245, 245, 220, 0.667);">Impressum</div>
+    </a>
+
+
+
+</body>
+
+</html>

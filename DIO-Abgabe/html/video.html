@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Style/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="grid-header">
+            <input type="checkbox" id="hamburger-input" class="burger-shower" />
+            <label id="hamburger-menu" for="hamburger-input">
+                <nav id="sidebar-menu">
+                    <ul>
+                        <li> <a href="../index.html" class="grid-item barba-link">
+                                <div><i class="fas fa-home"></i> Start</div>
+                            </a></li>
+                        <li><a href="../html/projekt.html" class="grid-item barba-link">
+                                <div><i class="fas fa-cogs"></i> Projekte</div>
+                            </a></li>
+                        <li><a href="../html/kontakt.html" class="grid-item barba-link">
+                                <div><i class="fas fa-envelope"></i> Kontakt</div>
+                            </a></li>
+                        <div style="display: flex; justify-content: center; margin-top: 100px;">- Schließen -</div>
+                    </ul>
+                </nav>
+            </label>
+
+
+
+            <nav id="l-nav">
+                <a href="../index.html" class="grid-item barba-link">
+                    <div><i class="fas fa-home"></i> Start</div>
+                </a>
+                <a href="../html/projekt.html" class="grid-item barba-link">
+                    <div><i class="fas fa-cogs"></i> Projekte</div>
+                </a>
+                <a href="../html/kontakt.html" class="grid-item barba-link">
+                    <div><i class="fas fa-envelope"></i> Kontakt</div>
+                </a>
+            </nav>
+            <nav id="r-nav">
+                <a href="#" class="grid-item barba-link">
+                    <div class="text-r"><i class="fab fa-instagram"></i> Instagram</div>
+                </a>
+                <a href="#" class="grid-item barba-link">
+                    <div class="text-r"><i class="fab fa-youtube"></i> YouTube</div>
+                </a>
+                <a href="#" class="grid-item barba-link">
+                    <div class="text-r"><i class="fas fa-ellipsis-h"></i> Weiteres</div>
+                </a>
+            </nav>
+        </header>
+
+        <div class="video">
+            <video id="my-video" class="video-js vjs-default-skin" controls>
+                <source src="../Video/Knives_Out_Remake.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <a href="../html/impressum.html" class="grid-item">
+            <div style="color: rgba(245, 245, 220, 0.667);">Impressum</div>
+        </a>
+    </div>
+
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const player = new Plyr('#my-video');
+    });
+</script>
+
+</html>
